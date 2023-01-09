@@ -14,4 +14,4 @@ use App\Http\Controllers\prvikontroler;
 */
 
 Route::get('/',[prvikontroler::class,'prvafunkcija']);
-Route::get('/pocetak',[prvikontroler::class,'drugafunkcija']);
+Route::get('/pocetna',[prvikontroler::class,'drugafunkcija']);
